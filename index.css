@@ -133,13 +133,17 @@ h4{
    margin-right:45px;
    margin-left:15px;
 }
-div{
+nav{
    height:30px;
+}
+a{
+   text-decoration:none;
+   color:var(--color-Letras);
 }
 #botonTienda:active{
    transform:scale(1.5);
 }
-div:hover{
+nav:hover{
 color:var(--color-Letras1);
 border-bottom:solid;
 }
