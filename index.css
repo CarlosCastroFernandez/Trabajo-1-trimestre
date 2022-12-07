@@ -1,0 +1,145 @@
+:root {
+   --familia-Letras: Ink Free;
+   --Tamaño-Letras: 30px;
+   --color-Letras: white;
+   --color-Letras1: rgb(204, 204, 116);
+}
+
+body {
+   box-sizing: border-box;
+   background-color: rgba(10, 10, 10, 0.92);
+
+}
+
+header {
+   margin-bottom: 0px;
+   background-repeat: repeat;
+   font-weight: bold;
+   font-family: Ink Free;
+   font-size: var(--Tamaño-Letras);
+   display: flex;
+   flex-direction: row;
+   justify-content: space-evenly;
+   width: 100%;
+   height: 2em;
+   color:var(--color-Letras);
+
+
+}
+
+.autor {
+   font-size: 30px;
+   font-family: Brush Script MT;
+   position: relative;
+   left: -1em;
+   color:rgb(204, 204, 116);
+}
+
+.imagenfondo {
+   margin-top: 0px;
+   box-sizing: border-box;
+   display: flex;
+   height: 80vh;
+   width: 100%;
+   background-image: linear-gradient(rgba(5, 7, 12, 0.50), rgba(5, 7, 12, 0.50)),
+      url(./R.jpg);
+   background-repeat: no-repeat;
+   background-position: center, center;
+   background-size: cover;
+}
+
+#titulo1 {
+   display: flex;
+   justify-content: center;
+}
+
+h3 {
+   width: 100%;
+   height: 50%;
+   font-size: 30px;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   color: var(--color-Letras1);
+   font-family: var(--familia-Letras);
+
+}
+
+h1 {
+   color: var(--color-Letras);
+}
+
+
+
+img {
+   display: inline-block;
+
+}
+
+article {
+   margin-left: 15px;
+   vertical-align: top;
+   display: inline-block;
+
+   width: 55%;
+}
+
+p {
+   color: var(--color-Letras1);
+   font-family: var(--familia-Letras);
+}
+
+#titulo2 {
+   display: flex;
+   justify-content: center;
+}
+
+#cajaPuntoSeguido {
+   margin-left: 15px;
+   margin-right: 15px;
+   width: 45%;
+   display: inline-block;
+   vertical-align: top;
+}
+
+.articulo2 {
+   margin-left: -5px;
+   width: 100%;
+}
+
+#botonTienda {
+   display: block;
+   margin: 0 auto;
+   margin-bottom: 10px;
+   width: 10%;
+   border-style: solid;
+   border-color: black;
+   border-radius: 90%;
+}
+#titulo3{
+   display:flex;
+   justify-content:center;
+
+}
+h4{
+   font-family:var(--familia-Letras);
+   color:var(--color-Letras1);
+   font-weight:bold;
+}
+.cajaSeguida{
+   display:inline-block;
+   vertical-align:top;
+   margin-right:45px;
+   margin-left:15px;
+}
+div{
+   height:30px;
+}
+#botonTienda:active{
+   transform:scale(1.5);
+}
+div:hover{
+color:var(--color-Letras1);
+border-bottom:solid;
+}
