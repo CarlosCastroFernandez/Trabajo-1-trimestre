@@ -68,6 +68,7 @@ h3 {
 
 h1 {
    color: var(--color-Letras);
+   font-family:var(--familia-Letras);
 }
 
 
@@ -149,4 +150,11 @@ a{
 a:hover{
 color:var(--color-Letras1);
 border-bottom:solid;
+}
+video{
+   background-color:black;
+}
+#titulo4{
+   display:flex;
+   justify-content:center;
 }
