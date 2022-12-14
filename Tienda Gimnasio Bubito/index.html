@@ -16,9 +16,9 @@
         </div>
         <nav>
             <a href="https://carloscastrofernandez.github.io/Trabajo-1-trimestre/">Inicio</a>
-            <a>Quienes somos</a>
-            <a>Tienda</a>
-            <a>Contacto</a>
+            <a href="https://carloscastrofernandez.github.io/Trabajo-1-trimestre/#titulo1">Quienes somos</a>
+            <a href="#Titulo6">Productos</a>
+            <a href="https://carloscastrofernandez.github.io/Trabajo-1-trimestre/#titulo3">Contacto</a>
         </nav>
 
     </header>
@@ -34,7 +34,7 @@
     <h1 id="titulo5">¿Quieres un cuerpo perfecto?, observate en el espejo</h1>
 
 
-<!--  opciones de imágenes responsivas
+    <!--  opciones de imágenes responsivas
         tamaños (ancho x alto)
 
         horizontales   verticales
@@ -63,35 +63,54 @@ avif: cuadrado
                 <!-- horizontales: mostraremos la grande cuando la mediana no fuera suficiente, o sea más de 1200 de ancho.
         verticales: el mismo criterio, o sea más de 600 de ancho. -->
 
-                <source media="(orientation: landscape) and (min-width: 1201px)" srcset="../18imagenessegunsutamaño/H-GRANDE-CUADRADO.avif" type="image/avif">
-                <source media="(orientation: landscape) and (min-width: 1201px)" srcset="../18imagenessegunsutamaño/H-GRANDE-TRIANGULO.webp" type="image/webp">
-                <source media="(orientation: landscape) and (min-width: 1201px)" srcset="../18imagenessegunsutamaño/H-GRANDE-CIRCULO.jpg" type="image/jpeg">
-                <source media="(orientation: portrait) and (min-width:601px)" srcset="../18imagenessegunsutamaño/V-GRANDE-CUADRADO.avif" type="image/avif">
-                <source media="(orientation: portrait) and (min-width:601px)" srcset="../18imagenessegunsutamaño/V-GRANDE-TRIANGULO.webp" type="image/webp">
-                <source media="(orientation: portrait) and (min-width:601px)" srcset="../18imagenessegunsutamaño/V-GRANDE-CIRCULO.jpg" type="image/jpg">
+                <source media="(orientation: landscape) and (min-width: 1201px)"
+                    srcset="../18imagenessegunsutamaño/H-GRANDE-CUADRADO.avif" type="image/avif">
+                <source media="(orientation: landscape) and (min-width: 1201px)"
+                    srcset="../18imagenessegunsutamaño/H-GRANDE-TRIANGULO.webp" type="image/webp">
+                <source media="(orientation: landscape) and (min-width: 1201px)"
+                    srcset="../18imagenessegunsutamaño/H-GRANDE-CIRCULO.jpg" type="image/jpeg">
+                <source media="(orientation: portrait) and (min-width:601px)"
+                    srcset="../18imagenessegunsutamaño/V-GRANDE-CUADRADO.avif" type="image/avif">
+                <source media="(orientation: portrait) and (min-width:601px)"
+                    srcset="../18imagenessegunsutamaño/V-GRANDE-TRIANGULO.webp" type="image/webp">
+                <source media="(orientation: portrait) and (min-width:601px)"
+                    srcset="../18imagenessegunsutamaño/V-GRANDE-CIRCULO.jpg" type="image/jpg">
 
                 <!-- imágenes MEDIANAS -->
                 <!-- horizontales: mostraremos la grande cuando la pequeña no fuera suficiente, o sea más de 900 de ancho.
         verticales: el mismo criterio, o sea más de 400 de ancho. -->
-                <source media="(orientation: landscape) and (min-width: 901px)" srcset="../18imagenessegunsutamaño/MEDIANA-CUADRADO.avif" type="image/avif">
-                <source media="(orientation: landscape) and (min-width: 901px)" srcset="../18imagenessegunsutamaño/MEDIANA-TRIANGULO.webp" type="image/webp">
-                <source media="(orientation: landscape) and (min-width: 901px)" srcset="../18imagenessegunsutamaño/MEDIANA-CIRCULO.jpg" type="image/jpeg">
-                <source media="(orientation: portrait) and (min-width:401px)" srcset="../18imagenessegunsutamaño/V-MEDIANA-CUADRADO.avif" type="image/avif">
-                <source media="(orientation: portrait) and (min-width:401px)" srcset="../18imagenessegunsutamaño/V-MEDIANA-TRIANGULO.webp" type="image/webp">
-                <source media="(orientation: portrait) and (min-width:401px)" srcset="../18imagenessegunsutamaño/V-MEDIANA-CIRCULO.jpg" type="image/jpg">
+                <source media="(orientation: landscape) and (min-width: 901px)"
+                    srcset="../18imagenessegunsutamaño/MEDIANA-CUADRADO.avif" type="image/avif">
+                <source media="(orientation: landscape) and (min-width: 901px)"
+                    srcset="../18imagenessegunsutamaño/MEDIANA-TRIANGULO.webp" type="image/webp">
+                <source media="(orientation: landscape) and (min-width: 901px)"
+                    srcset="../18imagenessegunsutamaño/MEDIANA-CIRCULO.jpg" type="image/jpeg">
+                <source media="(orientation: portrait) and (min-width:401px)"
+                    srcset="../18imagenessegunsutamaño/V-MEDIANA-CUADRADO.avif" type="image/avif">
+                <source media="(orientation: portrait) and (min-width:401px)"
+                    srcset="../18imagenessegunsutamaño/V-MEDIANA-TRIANGULO.webp" type="image/webp">
+                <source media="(orientation: portrait) and (min-width:401px)"
+                    srcset="../18imagenessegunsutamaño/V-MEDIANA-CIRCULO.jpg" type="image/jpg">
 
                 <!-- imágenes PEQUEÑAS -->
                 <!-- en ambos casos, las usaremos cuando su ancho sea menor que su ancho máximo, para que no pixele
         al ajustarse al portarretratos -->
 
-                <source media="(orientation: landscape) and (max-width: 900px)" srcset="../18imagenessegunsutamaño/PEQUEÑA-CUADRADO.avif" type="image/avif">
-                <source media="(orientation: landscape) and (max-width: 900px)" srcset="../18imagenessegunsutamaño/PEQUEÑO-TRIANGULO.webp" type="image/webp">
-                <source media="(orientation: landscape) and (max-width: 900px)" srcset="../18imagenessegunsutamaño/PEQUEÑO-CIRCULO.jpg" type="image/jpeg">
-                <source media="(orientation: portrait) and (max-width: 400px)" srcset="../18imagenessegunsutamaño/V-PEQUEÑO-CUADRADO.avif" type="image/avif">
-                <source media="(orientation: portrait) and (max-width: 400px)" srcset="../18imagenessegunsutamaño/V-PEQUEÑO-TRIANGULO.webp" type="image/webp">
-                <source media="(orientation: portrait) and (max-width: 400px)" srcset="../18imagenessegunsutamaño/V-PEQUEÑO-CIRCULO.jpg" type="image/jpg">
+                <source media="(orientation: landscape) and (max-width: 900px)"
+                    srcset="../18imagenessegunsutamaño/PEQUEÑA-CUADRADO.avif" type="image/avif">
+                <source media="(orientation: landscape) and (max-width: 900px)"
+                    srcset="../18imagenessegunsutamaño/PEQUEÑO-TRIANGULO.webp" type="image/webp">
+                <source media="(orientation: landscape) and (max-width: 900px)"
+                    srcset="../18imagenessegunsutamaño/PEQUEÑO-CIRCULO.jpg" type="image/jpeg">
+                <source media="(orientation: portrait) and (max-width: 400px)"
+                    srcset="../18imagenessegunsutamaño/V-PEQUEÑO-CUADRADO.avif" type="image/avif">
+                <source media="(orientation: portrait) and (max-width: 400px)"
+                    srcset="../18imagenessegunsutamaño/V-PEQUEÑO-TRIANGULO.webp" type="image/webp">
+                <source media="(orientation: portrait) and (max-width: 400px)"
+                    srcset="../18imagenessegunsutamaño/V-PEQUEÑO-CIRCULO.jpg" type="image/jpg">
 
-                <img class="laFoto" alt="Foto de un Gato" title="Un paisaje conocido" src="../18imagenessegunsutamaño/HORIZONTAL.jpg">
+                <img class="laFoto" alt="Foto de un Gato" title="Un paisaje conocido"
+                    src="../18imagenessegunsutamaño/HORIZONTAL.jpg">
             </picture>
             <picture class="portaFoto" id="fotoinferiorizquierda">
 
@@ -99,35 +118,54 @@ avif: cuadrado
                 <!-- horizontales: mostraremos la grande cuando la mediana no fuera suficiente, o sea más de 1200 de ancho.
         verticales: el mismo criterio, o sea más de 600 de ancho. -->
 
-        <source media="(orientation: landscape) and (min-width: 1201px)" srcset="../18imagenessegunsutamaño/H-GRANDE-CUADRADO.avif" type="image/avif">
-        <source media="(orientation: landscape) and (min-width: 1201px)" srcset="../18imagenessegunsutamaño/H-GRANDE-TRIANGULO.webp" type="image/webp">
-        <source media="(orientation: landscape) and (min-width: 1201px)" srcset="../18imagenessegunsutamaño/H-GRANDE-CIRCULO.jpg" type="image/jpeg">
-        <source media="(orientation: portrait) and (min-width:601px)" srcset="../18imagenessegunsutamaño/V-GRANDE-CUADRADO.avif" type="image/avif">
-        <source media="(orientation: portrait) and (min-width:601px)" srcset="../18imagenessegunsutamaño/V-GRANDE-TRIANGULO.webp" type="image/webp">
-        <source media="(orientation: portrait) and (min-width:601px)" srcset="../18imagenessegunsutamaño/V-GRANDE-CIRCULO.jpg" type="image/jpg">
+                <source media="(orientation: landscape) and (min-width: 1201px)"
+                    srcset="../18imagenessegunsutamaño/H-GRANDE-CUADRADO.avif" type="image/avif">
+                <source media="(orientation: landscape) and (min-width: 1201px)"
+                    srcset="../18imagenessegunsutamaño/H-GRANDE-TRIANGULO.webp" type="image/webp">
+                <source media="(orientation: landscape) and (min-width: 1201px)"
+                    srcset="../18imagenessegunsutamaño/H-GRANDE-CIRCULO.jpg" type="image/jpeg">
+                <source media="(orientation: portrait) and (min-width:601px)"
+                    srcset="../18imagenessegunsutamaño/V-GRANDE-CUADRADO.avif" type="image/avif">
+                <source media="(orientation: portrait) and (min-width:601px)"
+                    srcset="../18imagenessegunsutamaño/V-GRANDE-TRIANGULO.webp" type="image/webp">
+                <source media="(orientation: portrait) and (min-width:601px)"
+                    srcset="../18imagenessegunsutamaño/V-GRANDE-CIRCULO.jpg" type="image/jpg">
 
                 <!-- imágenes MEDIANAS -->
                 <!-- horizontales: mostraremos la grande cuando la pequeña no fuera suficiente, o sea más de 900 de ancho.
         verticales: el mismo criterio, o sea más de 400 de ancho. -->
-        <source media="(orientation: landscape) and (min-width: 901px)" srcset="../18imagenessegunsutamaño/MEDIANA-CUADRADO.avif" type="image/avif">
-        <source media="(orientation: landscape) and (min-width: 901px)" srcset="../18imagenessegunsutamaño/MEDIANA-TRIANGULO.webp" type="image/webp">
-        <source media="(orientation: landscape) and (min-width: 901px)" srcset="../18imagenessegunsutamaño/MEDIANA-CIRCULO.jpg" type="image/jpeg">
-        <source media="(orientation: portrait) and (min-width:401px)" srcset="../18imagenessegunsutamaño/V-MEDIANA-CUADRADO.avif" type="image/avif">
-        <source media="(orientation: portrait) and (min-width:401px)" srcset="../18imagenessegunsutamaño/V-MEDIANA-TRIANGULO.webp" type="image/webp">
-        <source media="(orientation: portrait) and (min-width:401px)" srcset="../18imagenessegunsutamaño/V-MEDIANA-CIRCULO.jpg" type="image/jpg">
+                <source media="(orientation: landscape) and (min-width: 901px)"
+                    srcset="../18imagenessegunsutamaño/MEDIANA-CUADRADO.avif" type="image/avif">
+                <source media="(orientation: landscape) and (min-width: 901px)"
+                    srcset="../18imagenessegunsutamaño/MEDIANA-TRIANGULO.webp" type="image/webp">
+                <source media="(orientation: landscape) and (min-width: 901px)"
+                    srcset="../18imagenessegunsutamaño/MEDIANA-CIRCULO.jpg" type="image/jpeg">
+                <source media="(orientation: portrait) and (min-width:401px)"
+                    srcset="../18imagenessegunsutamaño/V-MEDIANA-CUADRADO.avif" type="image/avif">
+                <source media="(orientation: portrait) and (min-width:401px)"
+                    srcset="../18imagenessegunsutamaño/V-MEDIANA-TRIANGULO.webp" type="image/webp">
+                <source media="(orientation: portrait) and (min-width:401px)"
+                    srcset="../18imagenessegunsutamaño/V-MEDIANA-CIRCULO.jpg" type="image/jpg">
 
                 <!-- imágenes PEQUEÑAS -->
                 <!-- en ambos casos, las usaremos cuando su ancho sea menor que su ancho máximo, para que no pixele
         al ajustarse al portarretratos -->
 
-        <source media="(orientation: landscape) and (max-width: 900px)" srcset="../18imagenessegunsutamaño/PEQUEÑA-CUADRADO.avif" type="image/avif">
-        <source media="(orientation: landscape) and (max-width: 900px)" srcset="../18imagenessegunsutamaño/PEQUEÑO-TRIANGULO.webp" type="image/webp">
-        <source media="(orientation: landscape) and (max-width: 900px)" srcset="../18imagenessegunsutamaño/PEQUEÑO-CIRCULO.jpg" type="image/jpeg">
-        <source media="(orientation: portrait) and (max-width: 400px)" srcset="../18imagenessegunsutamaño/V-PEQUEÑO-CUADRADO.avif" type="image/avif">
-        <source media="(orientation: portrait) and (max-width: 400px)" srcset="../18imagenessegunsutamaño/V-PEQUEÑO-TRIANGULO.webp" type="image/webp">
-        <source media="(orientation: portrait) and (max-width: 400px)" srcset="../18imagenessegunsutamaño/V-PEQUEÑO-CIRCULO.jpg" type="image/jpg">
+                <source media="(orientation: landscape) and (max-width: 900px)"
+                    srcset="../18imagenessegunsutamaño/PEQUEÑA-CUADRADO.avif" type="image/avif">
+                <source media="(orientation: landscape) and (max-width: 900px)"
+                    srcset="../18imagenessegunsutamaño/PEQUEÑO-TRIANGULO.webp" type="image/webp">
+                <source media="(orientation: landscape) and (max-width: 900px)"
+                    srcset="../18imagenessegunsutamaño/PEQUEÑO-CIRCULO.jpg" type="image/jpeg">
+                <source media="(orientation: portrait) and (max-width: 400px)"
+                    srcset="../18imagenessegunsutamaño/V-PEQUEÑO-CUADRADO.avif" type="image/avif">
+                <source media="(orientation: portrait) and (max-width: 400px)"
+                    srcset="../18imagenessegunsutamaño/V-PEQUEÑO-TRIANGULO.webp" type="image/webp">
+                <source media="(orientation: portrait) and (max-width: 400px)"
+                    srcset="../18imagenessegunsutamaño/V-PEQUEÑO-CIRCULO.jpg" type="image/jpg">
 
-                <img class="laFoto" alt="Foto de un Gato" title="Un paisaje conocido" src="../18imagenessegunsutamaño/HORIZONTAL.jpg">
+                <img class="laFoto" alt="Foto de un Gato" title="Un paisaje conocido"
+                    src="../18imagenessegunsutamaño/HORIZONTAL.jpg">
             </picture>
         </div>
         <div class="columna">
@@ -137,36 +175,55 @@ avif: cuadrado
                 <!-- horizontales: mostraremos la grande cuando la mediana no fuera suficiente, o sea más de 1200 de ancho.
         verticales: el mismo criterio, o sea más de 600 de ancho. -->
 
-        <source media="(orientation: landscape) and (min-width: 1201px)" srcset="../18imagenessegunsutamaño/H-GRANDE-CUADRADO.avif" type="image/avif">
-        <source media="(orientation: landscape) and (min-width: 1201px)" srcset="../18imagenessegunsutamaño/H-GRANDE-TRIANGULO.webp" type="image/webp">
-        <source media="(orientation: landscape) and (min-width: 1201px)" srcset="../18imagenessegunsutamaño/H-GRANDE-CIRCULO.jpg" type="image/jpeg">
-        <source media="(orientation: portrait) and (min-width:601px)" srcset="../18imagenessegunsutamaño/V-GRANDE-CUADRADO.avif" type="image/avif">
-        <source media="(orientation: portrait) and (min-width:601px)" srcset="../18imagenessegunsutamaño/V-GRANDE-TRIANGULO.webp" type="image/webp">
-        <source media="(orientation: portrait) and (min-width:601px)" srcset="../18imagenessegunsutamaño/V-GRANDE-CIRCULO.jpg" type="image/jpg">
+                <source media="(orientation: landscape) and (min-width: 1201px)"
+                    srcset="../18imagenessegunsutamaño/H-GRANDE-CUADRADO.avif" type="image/avif">
+                <source media="(orientation: landscape) and (min-width: 1201px)"
+                    srcset="../18imagenessegunsutamaño/H-GRANDE-TRIANGULO.webp" type="image/webp">
+                <source media="(orientation: landscape) and (min-width: 1201px)"
+                    srcset="../18imagenessegunsutamaño/H-GRANDE-CIRCULO.jpg" type="image/jpeg">
+                <source media="(orientation: portrait) and (min-width:601px)"
+                    srcset="../18imagenessegunsutamaño/V-GRANDE-CUADRADO.avif" type="image/avif">
+                <source media="(orientation: portrait) and (min-width:601px)"
+                    srcset="../18imagenessegunsutamaño/V-GRANDE-TRIANGULO.webp" type="image/webp">
+                <source media="(orientation: portrait) and (min-width:601px)"
+                    srcset="../18imagenessegunsutamaño/V-GRANDE-CIRCULO.jpg" type="image/jpg">
 
                 <!-- imágenes MEDIANAS -->
                 <!-- horizontales: mostraremos la grande cuando la pequeña no fuera suficiente, o sea más de 900 de ancho.
         verticales: el mismo criterio, o sea más de 400 de ancho. -->
-        <source media="(orientation: landscape) and (min-width: 901px)" srcset="../18imagenessegunsutamaño/MEDIANA-CUADRADO.avif" type="image/avif">
-        <source media="(orientation: landscape) and (min-width: 901px)" srcset="../18imagenessegunsutamaño/MEDIANA-TRIANGULO.webp" type="image/webp">
-        <source media="(orientation: landscape) and (min-width: 901px)" srcset="../18imagenessegunsutamaño/MEDIANA-CIRCULO.jpg" type="image/jpeg">
-        <source media="(orientation: portrait) and (min-width:401px)" srcset="../18imagenessegunsutamaño/V-MEDIANA-CUADRADO.avif" type="image/avif">
-        <source media="(orientation: portrait) and (min-width:401px)" srcset="../18imagenessegunsutamaño/V-MEDIANA-TRIANGULO.webp" type="image/webp">
-        <source media="(orientation: portrait) and (min-width:401px)" srcset="../18imagenessegunsutamaño/V-MEDIANA-CIRCULO.jpg" type="image/jpg">
+                <source media="(orientation: landscape) and (min-width: 901px)"
+                    srcset="../18imagenessegunsutamaño/MEDIANA-CUADRADO.avif" type="image/avif">
+                <source media="(orientation: landscape) and (min-width: 901px)"
+                    srcset="../18imagenessegunsutamaño/MEDIANA-TRIANGULO.webp" type="image/webp">
+                <source media="(orientation: landscape) and (min-width: 901px)"
+                    srcset="../18imagenessegunsutamaño/MEDIANA-CIRCULO.jpg" type="image/jpeg">
+                <source media="(orientation: portrait) and (min-width:401px)"
+                    srcset="../18imagenessegunsutamaño/V-MEDIANA-CUADRADO.avif" type="image/avif">
+                <source media="(orientation: portrait) and (min-width:401px)"
+                    srcset="../18imagenessegunsutamaño/V-MEDIANA-TRIANGULO.webp" type="image/webp">
+                <source media="(orientation: portrait) and (min-width:401px)"
+                    srcset="../18imagenessegunsutamaño/V-MEDIANA-CIRCULO.jpg" type="image/jpg">
 
 
                 <!-- imágenes PEQUEÑAS -->
                 <!-- en ambos casos, las usaremos cuando su ancho sea menor que su ancho máximo, para que no pixele
         al ajustarse al portarretratos -->
 
-        <source media="(orientation: landscape) and (max-width: 900px)" srcset="../18imagenessegunsutamaño/PEQUEÑA-CUADRADO.avif" type="image/avif">
-        <source media="(orientation: landscape) and (max-width: 900px)" srcset="../18imagenessegunsutamaño/PEQUEÑO-TRIANGULO.webp" type="image/webp">
-        <source media="(orientation: landscape) and (max-width: 900px)" srcset="../18imagenessegunsutamaño/PEQUEÑO-CIRCULO.jpg" type="image/jpeg">
-        <source media="(orientation: portrait) and (max-width: 400px)" srcset="../18imagenessegunsutamaño/V-PEQUEÑO-CUADRADO.avif" type="image/avif">
-        <source media="(orientation: portrait) and (max-width: 400px)" srcset="../18imagenessegunsutamaño/V-PEQUEÑO-TRIANGULO.webp" type="image/webp">
-        <source media="(orientation: portrait) and (max-width: 400px)" srcset="../18imagenessegunsutamaño/V-PEQUEÑO-CIRCULO.jpg" type="image/jpg">
+                <source media="(orientation: landscape) and (max-width: 900px)"
+                    srcset="../18imagenessegunsutamaño/PEQUEÑA-CUADRADO.avif" type="image/avif">
+                <source media="(orientation: landscape) and (max-width: 900px)"
+                    srcset="../18imagenessegunsutamaño/PEQUEÑO-TRIANGULO.webp" type="image/webp">
+                <source media="(orientation: landscape) and (max-width: 900px)"
+                    srcset="../18imagenessegunsutamaño/PEQUEÑO-CIRCULO.jpg" type="image/jpeg">
+                <source media="(orientation: portrait) and (max-width: 400px)"
+                    srcset="../18imagenessegunsutamaño/V-PEQUEÑO-CUADRADO.avif" type="image/avif">
+                <source media="(orientation: portrait) and (max-width: 400px)"
+                    srcset="../18imagenessegunsutamaño/V-PEQUEÑO-TRIANGULO.webp" type="image/webp">
+                <source media="(orientation: portrait) and (max-width: 400px)"
+                    srcset="../18imagenessegunsutamaño/V-PEQUEÑO-CIRCULO.jpg" type="image/jpg">
 
-                <img class="laFoto" alt="Foto de un Gato" title="Un paisaje conocido" src="../18imagenessegunsutamaño/HORIZONTAL.jpg">
+                <img class="laFoto" alt="Foto de un Gato" title="Un paisaje conocido"
+                    src="../18imagenessegunsutamaño/HORIZONTAL.jpg">
             </picture>
             <picture class="portaFoto" id="fotoinferiorderecha">
 
@@ -174,44 +231,147 @@ avif: cuadrado
                 <!-- horizontales: mostraremos la grande cuando la mediana no fuera suficiente, o sea más de 1200 de ancho.
         verticales: el mismo criterio, o sea más de 600 de ancho. -->
 
-        <source media="(orientation: landscape) and (min-width: 1201px)" srcset="../18imagenessegunsutamaño/H-GRANDE-CUADRADO.avif" type="image/avif">
-        <source media="(orientation: landscape) and (min-width: 1201px)" srcset="../18imagenessegunsutamaño/H-GRANDE-TRIANGULO.webp" type="image/webp">
-        <source media="(orientation: landscape) and (min-width: 1201px)" srcset="../18imagenessegunsutamaño/H-GRANDE-CIRCULO.jpg" type="image/jpeg">
-        <source media="(orientation: portrait) and (min-width:601px)" srcset="../18imagenessegunsutamaño/V-GRANDE-CUADRADO.avif" type="image/avif">
-        <source media="(orientation: portrait) and (min-width:601px)" srcset="../18imagenessegunsutamaño/V-GRANDE-TRIANGULO.webp" type="image/webp">
-        <source media="(orientation: portrait) and (min-width:601px)" srcset="../18imagenessegunsutamaño/V-GRANDE-CIRCULO.jpg" type="image/jpg">
+                <source media="(orientation: landscape) and (min-width: 1201px)"
+                    srcset="../18imagenessegunsutamaño/H-GRANDE-CUADRADO.avif" type="image/avif">
+                <source media="(orientation: landscape) and (min-width: 1201px)"
+                    srcset="../18imagenessegunsutamaño/H-GRANDE-TRIANGULO.webp" type="image/webp">
+                <source media="(orientation: landscape) and (min-width: 1201px)"
+                    srcset="../18imagenessegunsutamaño/H-GRANDE-CIRCULO.jpg" type="image/jpeg">
+                <source media="(orientation: portrait) and (min-width:601px)"
+                    srcset="../18imagenessegunsutamaño/V-GRANDE-CUADRADO.avif" type="image/avif">
+                <source media="(orientation: portrait) and (min-width:601px)"
+                    srcset="../18imagenessegunsutamaño/V-GRANDE-TRIANGULO.webp" type="image/webp">
+                <source media="(orientation: portrait) and (min-width:601px)"
+                    srcset="../18imagenessegunsutamaño/V-GRANDE-CIRCULO.jpg" type="image/jpg">
 
 
                 <!-- imágenes MEDIANAS -->
                 <!-- horizontales: mostraremos la grande cuando la pequeña no fuera suficiente, o sea más de 900 de ancho.
         verticales: el mismo criterio, o sea más de 400 de ancho. -->
-        <source media="(orientation: landscape) and (min-width: 901px)" srcset="../18imagenessegunsutamaño/MEDIANA-CUADRADO.avif" type="image/avif">
-        <source media="(orientation: landscape) and (min-width: 901px)" srcset="../18imagenessegunsutamaño/MEDIANA-TRIANGULO.webp" type="image/webp">
-        <source media="(orientation: landscape) and (min-width: 901px)" srcset="../18imagenessegunsutamaño/MEDIANA-CIRCULO.jpg" type="image/jpeg">
-        <source media="(orientation: portrait) and (min-width:401px)" srcset="../18imagenessegunsutamaño/V-MEDIANA-CUADRADO.avif" type="image/avif">
-        <source media="(orientation: portrait) and (min-width:401px)" srcset="../18imagenessegunsutamaño/V-MEDIANA-TRIANGULO.webp" type="image/webp">
-        <source media="(orientation: portrait) and (min-width:401px)" srcset="../18imagenessegunsutamaño/V-MEDIANA-CIRCULO.jpg" type="image/jpg">
+                <source media="(orientation: landscape) and (min-width: 901px)"
+                    srcset="../18imagenessegunsutamaño/MEDIANA-CUADRADO.avif" type="image/avif">
+                <source media="(orientation: landscape) and (min-width: 901px)"
+                    srcset="../18imagenessegunsutamaño/MEDIANA-TRIANGULO.webp" type="image/webp">
+                <source media="(orientation: landscape) and (min-width: 901px)"
+                    srcset="../18imagenessegunsutamaño/MEDIANA-CIRCULO.jpg" type="image/jpeg">
+                <source media="(orientation: portrait) and (min-width:401px)"
+                    srcset="../18imagenessegunsutamaño/V-MEDIANA-CUADRADO.avif" type="image/avif">
+                <source media="(orientation: portrait) and (min-width:401px)"
+                    srcset="../18imagenessegunsutamaño/V-MEDIANA-TRIANGULO.webp" type="image/webp">
+                <source media="(orientation: portrait) and (min-width:401px)"
+                    srcset="../18imagenessegunsutamaño/V-MEDIANA-CIRCULO.jpg" type="image/jpg">
 
                 <!-- imágenes PEQUEÑAS -->
                 <!-- en ambos casos, las usaremos cuando su ancho sea menor que su ancho máximo, para que no pixele
         al ajustarse al portarretratos -->
 
-        <source media="(orientation: landscape) and (max-width: 900px)" srcset="../18imagenessegunsutamaño/PEQUEÑA-CUADRADO.avif" type="image/avif">
-        <source media="(orientation: landscape) and (max-width: 900px)" srcset="../18imagenessegunsutamaño/PEQUEÑO-TRIANGULO.webp" type="image/webp">
-        <source media="(orientation: landscape) and (max-width: 900px)" srcset="../18imagenessegunsutamaño/PEQUEÑO-CIRCULO.jpg" type="image/jpeg">
-        <source media="(orientation: portrait) and (max-width: 400px)" srcset="../18imagenessegunsutamaño/V-PEQUEÑO-CUADRADO.avif" type="image/avif">
-        <source media="(orientation: portrait) and (max-width: 400px)" srcset="../18imagenessegunsutamaño/V-PEQUEÑO-TRIANGULO.webp" type="image/webp">
-        <source media="(orientation: portrait) and (max-width: 400px)" srcset="../18imagenessegunsutamaño/V-PEQUEÑO-CIRCULO.jpg" type="image/jpg">
+                <source media="(orientation: landscape) and (max-width: 900px)"
+                    srcset="../18imagenessegunsutamaño/PEQUEÑA-CUADRADO.avif" type="image/avif">
+                <source media="(orientation: landscape) and (max-width: 900px)"
+                    srcset="../18imagenessegunsutamaño/PEQUEÑO-TRIANGULO.webp" type="image/webp">
+                <source media="(orientation: landscape) and (max-width: 900px)"
+                    srcset="../18imagenessegunsutamaño/PEQUEÑO-CIRCULO.jpg" type="image/jpeg">
+                <source media="(orientation: portrait) and (max-width: 400px)"
+                    srcset="../18imagenessegunsutamaño/V-PEQUEÑO-CUADRADO.avif" type="image/avif">
+                <source media="(orientation: portrait) and (max-width: 400px)"
+                    srcset="../18imagenessegunsutamaño/V-PEQUEÑO-TRIANGULO.webp" type="image/webp">
+                <source media="(orientation: portrait) and (max-width: 400px)"
+                    srcset="../18imagenessegunsutamaño/V-PEQUEÑO-CIRCULO.jpg" type="image/jpg">
 
-                <img class="laFoto" alt="Foto de un Gato" title="Un paisaje conocido" src="../18imagenessegunsutamaño/HORIZONTAL.jpg">
+                <img class="laFoto" alt="Foto de un Gato" title="Un paisaje conocido"
+                    src="../18imagenessegunsutamaño/HORIZONTAL.jpg">
             </picture>
         </div>
     </div>
-
-
-
-
-
+    <h1 id="Titulo6">
+        TOP 5 DE NUESTROS PRODUCTOS
+    </h1>
+    <section>
+        <article>
+            <h3>
+                100% Whey Gold Standard de Optimum Nutrition
+            </h3>
+            <div id="cajaFlexible1">
+                <img src="../Proteina whey on.jpg" alt="Foto de proteina whey on" type="img/jpg">
+                <p class="parrafo5">Sin duda, 100% Whey Gold Standard de Optimum Nutrition se ha convertido en uno de los mejores batidos
+                    de proteínas del mercado. Combina tres fuentes diferentes de proteína de suero de la leche,
+                    un tipo de proteína de gran calidad que te aporta todos los aminoácidos esenciales.
+                    Este suplemento aporta 24 g de proteína y 5,5 g de BCAA’s (aminoácidos esenciales ramificados)
+                    en una sola dosis. Además, no genera molestias en el estómago al tomarla ya que se
+                    digiere muy bien.
+                </p>
+            </div>
+        </article>
+    </section>
+    <section>
+        <article>
+            <h3>
+                Iso 100 Hydrolized de Dymatized
+            </h3>
+            <div id="cajaFlexible2">
+                <img src="../Iso2.jpg" alt="Foto de proteina whey on" type="img/jpg">
+                <p class="parrafo4">Si buscas un la mejor proteína en polvo tras los entrenamientos Iso 100 Hydrolized
+                    de Dymatized es la opción perfecta. Su fórmula combina el aislado de suero
+                    hidrolizado y el aislado de suero, una mezcla diseñada para quienes busquen
+                    un aporte rápido de proteínas. Además, aporta 25 g de proteína y su contenido
+                    en azúcares y grasas es bajo, una opción perfecta para etapas de definición.
+                </p>
+            </div>
+        </article>
+    </section>
+    <section>
+        <article>
+            <h3>
+                Iso Whey Zero de BioTech USA
+            </h3>
+            <div id="cajaFlexible3">
+                <img src="../iso whey3.jpg" alt="Foto de proteina whey on" type="img/jpg">
+                <p class="parrafo3">Iso Whey Zero de BioTech USA está elaborada a base del aislado de proteína de
+                    suero, un tipo de proteína que por su procesamiento aporta una proteína muy
+                    pura, se elimina en gran cantidad el hidrato de carbono y las grasas. Estas
+                    características la han convertido en uno de los mejores batidos de proteína
+                    para quienes se encuentran en un proceso de pérdida de peso, en una etapa de
+                    definición o para quienes no toleran bien la lactosa.
+                </p>
+            </div>
+        </article>
+    </section>
+    <section>
+        <article>
+            <h3>
+                Isolate Gourmet de Amazin’ Foods
+            </h3>
+            <div id="cajaFlexible4">
+                <img src="../isolate Gourmet4.jpg" alt="Foto de proteina whey on" type="img/jpg">
+                <p class="parrafo2">Isolate Gourmet de Amazin’ Foods al estar elaborada con aislado de suero de
+                    vacas que pastan en libertad y endulzada con estevia, hacen que esta
+                    proteína tenga un sabor, aroma y cremosidad inigualable. Y no solo eso,
+                    además de aportar 25 g de proteína por servicio, se digiere fácilmente ya que
+                    contiene el complejo enzimático patentado Digezyme®, una mezcla de enzimas
+                    digestivas que ayudan a digerir los nutrientes.
+                    ¡Sin duda, es una de las mejores proteínas calidad-precio
+                </p>
+            </div>
+        </article>
+    </section>
+    <section>
+        <article>
+            <h3>
+                Isoprime CFM de Amix Nutrition
+            </h3>
+            <div id="cajaFlexible5">
+                <img width="20%" src="../Isolate5.jpg" alt="Foto de proteina whey on" type="img/jpg">
+                <p class="parrafo1">Por último, Isoprime CFM de Amix Nutrition es un aislado de proteína de alta
+                     pureza ya que ha sido extraída por técnicas de flujo cruzado 
+                     (Cross-Flow Microfiltration). Un suplemento diseñado para tomar tras 
+                     los entrenamientos por su fácil y rápida absorción y su perfil de 
+                     aminoácidos de alta calidad. Una sola dosis de 35 g te aporta 31 g de 
+                     proteína, ¡el mejor batido de proteínas del mercado para quienes buscan 
+                     la máxima concentración!
+                </p>
+            </div>
+        </article>
+    </section>
 </body>
 
 </html>
